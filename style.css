@@ -46,3 +46,40 @@
         font-family: Biotif-Light;
     }
 }
+
+@media (min-width: 576px) { 
+    .containercustom{
+        /* max-width: 1800px; */
+        height: 750px;
+    }
+    body{
+        background-color: #FFF7E3;
+        font-family: Biotif-Medium;
+        color: white;
+       
+    }
+    .customcard{
+        background-color: #171717;
+        border-radius: 30px;
+        /* margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px; */
+        height: 750px;
+        /* padding: 20px; */
+        
+    }
+    .customtitle{
+        font-size: 36px;
+        background: -webkit-linear-gradient(0deg,#FFEFC7, #4FFFD7, #9ADEFF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* padding-top: 200px; */
+    }
+    .customsubtitle{
+        font-size: 16px;
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Biotif-Light;
+    }
+ }
