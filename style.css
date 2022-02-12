@@ -10,76 +10,91 @@
 .customimg{
     border-radius: 30px; 
 }
-@media (min-width: 1399.98px) { 
-    .containercustom{
-        max-width: 1800px;
-        height: 750px;
-    }
-    body{
-        background-color: #FFF7E3;
-        font-family: Biotif-Medium;
-        color: white;
-       
-    }
-    .customcard{
-        background-color: #171717;
-        border-radius: 30px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 0px;
-        height: 750px;
-        padding: 20px;
-        
-    }
-    .customtitle{
-        font-size: 72px;
-        background: -webkit-linear-gradient(0deg,#FFEFC7, #4FFFD7, #9ADEFF);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        padding-top: 200px;
-    }
-    .customsubtitle{
-        font-size: 36px;
-        background: white;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: Biotif-Light;
-    }
+
+body{
+    background-color: #FFF7E3;
+    font-family: Biotif-Medium;
+    color: black;
+   
+}
+.customcard{
+    background-color: #171717;
+    border-radius: 30px;
+    padding: 40px 40px 40px 40px;
+    
+}
+.customtitle{
+    background: -webkit-linear-gradient(0deg,#FFEFC7, #4FFFD7, #9ADEFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.customsubtitle{
+    font-size: 36px;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Biotif-Light;
 }
 
-@media (min-width: 576px) { 
-    .containercustom{
-        /* max-width: 1800px; */
-        height: 750px;
-    }
-    body{
-        background-color: #FFF7E3;
-        font-family: Biotif-Medium;
-        color: white;
-       
-    }
-    .customcard{
-        background-color: #171717;
-        border-radius: 30px;
-        /* margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 0px; */
-        height: 750px;
-        /* padding: 20px; */
-        
-    }
+@media screen and (min-width: 100.98px)  and (max-width: 768px) { 
     .customtitle{
         font-size: 36px;
-        background: -webkit-linear-gradient(0deg,#FFEFC7, #4FFFD7, #9ADEFF);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        /* padding-top: 200px; */
+        padding-top: 50px
     }
     .customsubtitle{
         font-size: 16px;
-        background: white;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: Biotif-Light;
+        padding-top: 50px
+    }
+    .customcard{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .customimg{
+        margin-top: 10px;
+        width: 300px;
+    }
+ }
+@media screen and (min-width: 769px) and (max-width: 1366px) { 
+    .customtitle{
+        font-size: 54px;
+        padding-top: 50px
+    }
+    .customsubtitle{
+        font-size: 22px;
+        padding-top: 50px
+    }
+    .customcard{
+        margin-top: 30px !important;
+        margin-bottom: 30px;
+        
+    }
+    .customimg{
+        width: 500px;
+    }
+ }
+
+@media screen and (min-width: 1367px)   { 
+    .customtitle{
+        font-size: 72px;
+        padding-top: 200px
+    }
+    .customsubtitle{
+        font-size: 36px;
+    }
+    .customcard{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        height: 850px;
+       
+    }
+    .customimg{
+        width: 500px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 100px 0px 100px 0px;
     }
  }
