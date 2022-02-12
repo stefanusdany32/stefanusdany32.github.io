@@ -10,7 +10,10 @@
 .customimg{
     border-radius: 30px; 
 }
-
+li{
+    padding-left: 15px;
+   
+}
 body{
     background-color: #FFF7E3;
     font-family: Biotif-Medium;
@@ -21,6 +24,7 @@ body{
     background-color: #171717;
     border-radius: 30px;
     padding: 40px 40px 40px 40px;
+    margin : 0px 30px 0px 30px;
     
 }
 .customtitle{
@@ -36,7 +40,13 @@ body{
     -webkit-text-fill-color: transparent;
     font-family: Biotif-Light;
 }
-
+.customnav{
+    display: flex;
+    flex-direction: row;
+    left:  -20px;
+    margin-bottom: 0;
+    list-style: none;
+}
 @media screen and (min-width: 100.98px)  and (max-width: 768px) { 
     .customtitle{
         font-size: 36px;
@@ -44,18 +54,20 @@ body{
     }
     .customsubtitle{
         font-size: 16px;
-        padding-top: 50px
+        padding-top: 30px
     }
     .customcard{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        
+        margin : 20px 5px 20px 5px;
     }
     .customimg{
-        margin-top: 10px;
+        margin-top: 20px;
         width: 300px;
     }
- }
+    li{
+        font-size: 16px;
+    }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1366px) { 
     .customtitle{
         font-size: 54px;
@@ -72,6 +84,9 @@ body{
     }
     .customimg{
         width: 500px;
+    }
+    li{
+        font-size: 20px;
     }
  }
 
@@ -96,5 +111,8 @@ body{
         margin-left: auto;
         margin-right: auto;
         margin: 100px 0px 100px 0px;
+    }
+    li{
+        font-size: 30px;
     }
  }
